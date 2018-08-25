@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+            .Counter{
+                padding-left : 200px;
+                font-size: 100px
+            }
+            .Text{
+                padding-left : 200px;
+            }
+            .Button{
+                background-color:white; 
+                padding-left : 200px;
+            }
+            </style>
+            <div class = "Counter">
+                   My Simple Todo list   <br>
+                   Todos       
+            </div>
+        <br>
+    </head>
+    <body>
+            <div class = "Text" >
+            <input type="text" name="TextBox" id="TextBox" value="Text" />
+        </div>
+       <div class = "Button" >
+         <input type="Button" id='AddButton' value="Add todo" />
+        </div>
+        <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#AddButton').click( function() {
+                    var text1 = $('#TextBox').val();
+                    $('#TextBox').val(text1);
+                });
+                
+            });
+        </script>
+    </body>
+</html>

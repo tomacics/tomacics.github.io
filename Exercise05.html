@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <style>
+            .Counter{
+                padding-left : 200px;
+                font-size: 100px
+            }
+            .Text{
+                padding-left : 200px;
+                
+            }
+            .Button{
+                background-color:white; 
+                padding-left : 200px;
+            }
+            </style>
+            <div class = "Counter">
+                    Counter           
+            </div>
+        <br>
+    </head>
+    <body>
+            <div class = "Text" >
+            <input type="text" name="TextBox" id="TextBox" value="0" />
+        </div>
+       <div class = "Button" >
+         <input type="Button" id='AddButton' value="Increase" />
+         <input type="Button" id='oddButton' value="Decrease" />
+        </div>
+
+        <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#AddButton').click( function() {
+                    var counter = $('#TextBox').val();
+                    counter++ ;
+                    $('#TextBox').val(counter);
+                });
+                $('#oddButton').click( function() {
+                    var counter = $('#TextBox').val();
+                    counter-- ;
+                    $('#TextBox').val(counter);
+                });
+            });
+        </script>
+    </body>
+</html>
