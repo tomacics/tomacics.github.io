@@ -13,10 +13,10 @@
 </div>
 <br>
 <div class="TextBox">
-  
-    <textarea name="Textbox" cols="98" rows="2">
-            
-        </textarea>
+        <form action="">
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+              </form>
     </div>
     <br>
 
@@ -28,12 +28,15 @@
                 <button onclick="myFunction()">Post</button>
         </div>
         <br>
- <button class="button">Submit
- </button>
-            <br>
-            <br>
-            
- <div class="Post1">Posts
+        <div class="image">
+                <br>
+        <img src="IMG_20160827_144951.jpg" alt="Fertő tó" width="100" height="60">
+        <br>
+    </div>
+    <br>     
+ <div class="Post1">
+        <p> <a href="https://hu.wikipedia.org/wiki/Fert%C5%91" title="">A Fertő tó honlapja</a><br>
+            </p>
     </div>
     <br>
      <div class="TextBox2">
@@ -53,7 +56,7 @@
 
                         <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
                         <script>
-                          // Initialize Firebase
+                     
                           var config = {
                             apiKey: "AIzaSyCu-5Ve3pweMA0fCODLct2Oh9cK-d3RP6Y",
                             authDomain: "tamas-gf-blog.firebaseapp.com",

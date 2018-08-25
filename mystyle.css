@@ -12,30 +12,24 @@
     color: black;
     background-color:grey; 
     border: 2px solid black;
-    
     height: 30px;
     color: black;
     margin-left: 120px;
     border-radius: 4px;
-    
-    
     font-size:20px;
 
 }
 .Title{
     color: black;
-    
     padding-left: 120px;
     font-size:20px;
-
 }
 .TextBox{
-    
     padding-left:10px;
     border: 2px solid black;
     border-radius: 4px;
     margin-left: 120px;
-    margin-right: 500px;
+    margin-right: 1100px;
 }
 .Content{
     padding-left: 120px;
@@ -46,25 +40,24 @@
     padding-left:10px;
     border: 2px solid black;
     border-radius: 4px;
- 
-    
+}
+.image{
+    margin-left: 120px;
+    margin-right: 500px;
+    padding-left:10px;
     
 }
 
 .button {
-    
     background-color:grey; 
     border: 2px solid black;
-    
     height: 20px;
     color: black;
     margin-left: 120px;
     border-radius: 4px;
-   
 }
 .Post1{
     padding-left: 120px;
-
 }
 .TextBox2{
     padding-left:10px;
