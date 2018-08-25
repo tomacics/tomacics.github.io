@@ -2,10 +2,11 @@
 @charset "utf-8";
 .Blog{
     color: black;
-    background:grey;
-    padding-left: 120px;
-    font-size:20px;
-
+    background:blue;
+    padding-left: 200px;
+    font-size:40px;
+    margin-left: 120px;
+    margin-right: 500px;
 }
 .Post{
     color: black;
