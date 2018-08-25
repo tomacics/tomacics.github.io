@@ -6,8 +6,8 @@
 <div class="Blog">The Blog 
     </div>
     <br>
-<div class="Post">Add new post
-    </div>
+<button class="Post">Add new post
+</button>
     <br>
     <div class="Title">Title
 </div>
@@ -24,10 +24,8 @@
         </div>
         <br>
         <div class ="box3">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                
+                 <input type="text" id="field1" value="Írj valamit!"><br>
+                <button onclick="myFunction()">Post</button>
                 
         </div>
         <br>
@@ -40,9 +38,7 @@
     </div>
     <br>
      <div class="TextBox2">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+             <input type="text" id="field2"><br><br>
                     </div>
                     <br>
                     <div class="TextBox3">
@@ -51,9 +47,11 @@
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         </div>
                         <br>
-
-
-
+                        <script>
+                                function myFunction() {
+                                    document.getElementById("field2").value = document.getElementById("field1").value;
+                                }
+                                </script>
 
                         <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
                         <script>
@@ -71,6 +69,5 @@
                         </script>
                         <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
                     <script src="script4.js>                    </script>
-
     </body>
     </html>
